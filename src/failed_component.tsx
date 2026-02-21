@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export const failed_component = () => {
   const [count, setCount] = useState(0);
-  const unused = "Tôi không được sử dụng 123";
+  const unused = "Tôi không được sử dụng 12345";
 
   if (count > 0) {
     const [invalidHook] = useState(false); // Lỗi: Hooks không được nằm trong IF
