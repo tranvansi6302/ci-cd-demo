@@ -5,7 +5,7 @@ export default function BuildError() {
   const [count, setCount] = useState<number>(0);
 
   // Ép kiểu sai để tsc báo lỗi
-  const errorValue: string = count;
+  const errorValue12: string = count;
 
   return (
     <div>
